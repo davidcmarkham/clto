@@ -1,2 +1,2 @@
-# clto
-Colloquial Laboratory Terminology Ontology
+# cwld
+Colloquial Wet Laboratory Dictionary

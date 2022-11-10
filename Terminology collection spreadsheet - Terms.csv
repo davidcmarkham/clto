@@ -1,0 +1,105 @@
+name,type,domain,seeAlso,equivalentTo,seeAlso_2,description,colloquialTermFor_1,colloquialTermFor_2,colloquialTermFor_3,colloquialTermFor_4,colloquialTermFor_5,Present,Present Continuous,Past
+Gene,noun,Biology,"transcriptional unit, cds",,https://en.wikipedia.org/wiki/Gene,DNA that corresponds to a genetic product,"SO:0000704 ""gene""",,,,,N/A,,
+CDS,noun,Biology,,,https://en.wikipedia.org/wiki/Coding_region,,"SO:0000316 ""cds""",,,,,N/A,,
+Silencing,verb,Biology,knockout,,https://en.wikipedia.org/wiki/Gene_silencing,Inhibiting the expression of a gene,"GO:0010629 ""negative regulation of gene expression""",,,,,Silence,Silencing,Silenced
+Knockout,verb,Biology,silencing,,https://en.wikipedia.org/wiki/Gene_knockdown,Removal of a sequence/gene from an organism,"NCIT:C22491 ""Knock-out""",,,,,Knockout,Knocking out,Knocked out
+Knockout,noun,Biology,"mutant, strain, line",,,An organism that has had a knockout performed on it (removal of sequence/gene),NCIT:C22491,,,,,N/A,,
+Construct,noun,Biology,"transcriptional unit, device, cassette",,https://en.wikipedia.org/wiki/DNA_construct,"Term for an engineered DNA sequence, typically pertaining to a transcriptional unit(s)","NCBITaxon:32630 ""synthetic construct""",,,,,N/A,,
+Strain,noun,Biology,mutant,,https://en.wikipedia.org/wiki/Strain_(biology),An organism pertaining to a specific genotype.,"NCIT:C14419 ""Organism Strain""",http://purl.obolibrary.org/obo/NCBITaxon_strain,,,,N/A,,
+Line,noun,Cell Biology; Plant Biology,mutant,,,An organism pertaining to a specific genotype.,,http://purl.obolibrary.org/obo/NCBITaxon_varietas,,,,N/A,,
+Device,noun,Synthetic Biology,"transcriptional unit, construct, cassette",,https://en.wikipedia.org/wiki/Molecular_machine,Term for an engineered DNA sequence with a purpose in a system,,,,,,N/A,,
+Cassette,noun,Synthetic Biology,"transcriptional unit, device, construct",,https://en.wikipedia.org/wiki/Expression_cassette,"Term for an engineered DNA sequence, often used for expression systems",,,,,,N/A,,
+Cloning,verb,Molecular Biology,assembly,,https://en.wikipedia.org/wiki/Molecular_cloning,Inserting a genetic feature into a host organism,,,,,,Clone,Cloning,Cloned
+Clone,noun,Molecular Biology,,,https://en.wikipedia.org/wiki/Molecular_cloning,"Organism produced as a result of cloning, whether they be positive or negative.",,,,,,N/A,,
+Assaying,verb,Biology,,,https://en.wikipedia.org/wiki/Assay,,,,,,,Assay,Assaying,Assayed
+Assay,noun,Biology,,,https://en.wikipedia.org/wiki/Assay,,,,,,,N/A,,
+Screening,verb,Molecular Biology,selection,,https://en.wikipedia.org/wiki/Molecular_cloning#Screening_for_clones_with_desired_DNA_inserts_and_biological_properties,,,,,,,Screen,Screening,Screened
+Screening,noun,Molecular Biology,,,,,,,,,,N/A,,
+Assembling,verb,Biology,cloning,,https://en.wikipedia.org/wiki/Molecular_cloning#Creation_of_recombinant_DNA_with_DNA_ligase,"Process of ligating DNA fragments together. Common methods include Golden Gate, digest-ligate, Gibson.",,,,,,Assemble,Assembling,Assembled
+Sample,noun,Biology,,,,,,,,,,N/A,,
+Growing,verb,Microbiology,,,,,,,,,,Grow,Growing,Grew
+Incubation,verb,Microbiology,,,,,,,,,,Incubate,Incubating,Incubated
+Fragment,noun,Molecular Biology,,,https://en.wikipedia.org/wiki/DNA_fragmentation,Linear nucleic acid sequence often a product of restriction digest or synthesis,,,,,,N/A,,
+Transformation,verb,Molecular Biology,transfection,,https://en.wikipedia.org/wiki/Transformation_(genetics),"Transferring genetic material into a cell. Typically, uptake of a plasmid into a cell or population of cells.","EFO:0000726 ""transfection""",,,,,Transform,Transforming,Transformed
+Promoter,noun,Molecular Biology,,,,,,,,,,N/A,,
+RBS,noun,Molecular Biology,,,https://en.wikipedia.org/wiki/Ribosome-binding_site,Sequence that a ribosome recognises and attaches at to initiate translation,"SO:0000139 ""ribsome entry site""",,,,,N/A,,
+Terminator,noun,Molecular Biology,,,,,"SO:0000141 ""terminator""",,,,,N/A,,
+Operon,noun,Molecular Biology,,,,,"SO:0000178 ""operon""",,,,,N/A,,
+Repressor,noun,Molecular Biology,,,,,,,,,,N/A,,
+Domain,noun,Molecular Biology,,,,,,,,,,N/A,,
+Sequence,noun,Molecular Biology,,,,,,,,,,N/A,,
+Sequencing,verb,Molecular Biology,,,,,,,,,,Sequence,Sequencing,Sequenced
+Restriction site,noun,Molecular Biology,,,https://en.wikipedia.org/wiki/Restriction_site,The recognition sequence of a specific restriction enzyme,"SO:0001687 ""restriction enzyme recognition site""",,,,,N/A,,
+Digestion,verb,Molecular Biology,cut,,https://en.wikipedia.org/wiki/Restriction_digest,Using a restriction enzyme to cut a DNA sequence at a specific location (a restriction site),"GO:0015666 ""restriction endodeoxyribonuclease activity""",,,,,Digest,Digesting,Digested
+Digest,noun,Molecular Biology,,,https://en.wikipedia.org/wiki/Restriction_digest,Reaction mixture resulting from a restriction digest containing linearised DNA fragment(s),,,,,,N/A,,
+Miniprepping,verb,Molecular Biology,,,https://en.wikipedia.org/wiki/Plasmid_preparation,Plasmid preparation. Extraction of plasmid from a host that expresses it. Miniprep specifically pertains to the lowest throughput method of achieving this.,,,,,,Miniprep,Miniprepping,Miniprepped
+Host,noun,Molecular Biology; Synthetic Biology,chassis,,,,,,,,,N/A,,
+Plasmid,noun,Molecular Biology,vector,,,,,,,,,N/A,,
+Vector,noun,Molecular Biology,plasmid,,,,,,,,,N/A,,
+Reaction,noun,Biochemistry; Molecular Biology,,,,,,,,,,N/A,,
+Reporter,noun,Molecular Biology,,,,A genetic element that can be experimentally observed,,,,,,N/A,,
+Colony,noun,Microbiology,,,,A group of bacteria of the same genotype,,,,,,N/A,,
+Culture,noun,Microbiology,,,,,,,,,,N/A,,
+Culturing,verb,Microbiology,grow,,,,,,,,,Culture,Culturing,Cultured
+Primer,noun,Molecular Biology,,,,Oligonucleotide with a sequence designed to bind at a specific site,,,,,,N/A,,
+Staining,verb,Molecular Biology,,,,,,,,,,Stain,Staining,Stained
+Vortexing,verb,Biology,,,,"Vigorous agitation of a mixture or solution, usually assisted by a vortex machine",,,,,,Vortex,Vortexing,Vortexed
+Genotyping,verb,Biology,,,,,,,,,,Genotype,Genotyping,Genotyped
+Repeat,noun,Biology,replicate,,,An exact copy of an experimental sample conducted to account for statistical variation,,,,,,N/A,,
+Replicate,noun,Biology,repeat,,,An exact copy of an experimental sample conducted to account for statistical variation,,,,,,N/A,,
+Transfection,verb,Molecular Biology,transformation,,,,,,,,,Transfect,Transfecting,Transfected
+Transformant,noun,Biology,,,,,,,,,,N/A,,
+Heat shocking,verb,Biology,,,,,,,,,,Heat shock,Heat shocking,Heat shocked
+Electroporation,verb,Biology,,,,,,,,,,Electroporate,Electroporating,Electroporated
+Sonication,verb,Biology,,,,,,,,,,Sonicate,Sonicating,Sonicated
+Dissection,verb,Biology,,,,,,,,,,Dissect,Dissecting,Dissected
+Plate,verb,Microbiology,,,https://en.wikipedia.org/wiki/Inoculation,Put cells on solid media for growing,,,,,,Plate,Plating,Plated
+Plate,noun,Microbiology,,,https://en.wikipedia.org/wiki/Petri_dish,Labware containing solid growth media,,,,,,N/A,,
+Streak,verb,Microbiology,,,https://en.wikipedia.org/wiki/Streaking_(microbiology),Technique used to isolate a pure strain from a single species,,,,,,Streak,Streaking,Streaked
+Sterilize,verb,Biology,,,,Remove contaminants from the subject,,,,,,Sterilize,Sterlizing,Sterilized
+Homogenization,verb,Biology,,,https://en.wikipedia.org/wiki/Homogenization_(biology),To ensure that the composition of a mixture is uniform throughout,,,,,,Homogenize,Homogenizing,Homogenized
+Precipitate,noun,Molecular Biology,,,,,,,,,,N/A,,
+Precipitation,verb,Molecular Biology,,,,,,,,,,Precipitate,Precipitatin,Precipitated
+Nanodropping,verb,Molecular Biology,,,,Quantify the concentration of a molecular sample of either nucleic acid or protein,,,,,,Nanodrop,Nanodropping,Nanodropped
+Fixing,verb,Plant Biology,,,,preserve in formaldehyde for microscopy,,,,,,Fix,Fixing,Fixed
+Imaging,verb,Biology,,,,,,,,,,Image,Imaging,Imaged
+Quantification,verb,Biology,,,,Measure the amount of the subject,,,,,,Quantify,Quantifying,Quantified
+Freezing,verb,Biology,,,,,,,,,,Freeze,Freezing,Froze
+Inversion,verb,Biology,,,,,,,,,,Invert,Inverting,Inverted
+Sediment,verb,Molecular Biology,,,,,,,,,,Sediment,Sedimenting,Sedimented
+Pellet,noun,Microbiology,,,,"Aggregation of solid mass. Typically, the result of a biological sample (e.g., a culture) that has been spun down by centrifugation",,,,,,N/A,,
+Supernatant,noun,Molecular Biology,,,,"The liquid component of a mixture that has been separated. Typically, the result of a biological sample (e.g., a culture) that has been spun down by centrifugation",,,,,,N/A,,
+Centrifuge,verb,Biology,spin,,,To spin down a mixture in a centrifuge. This separates a mixture by density with the most dense accumulating at the base.,,,,,,Centrifuge,Centrifuging,Centrifuged
+Spin down,verb,Biology,centrifuge,,,,,,,,,Spin down,Spinning down,Spun down
+Thaw,verb,Biology,,,,,,,,,,Thaw,Thawing,Thawed
+Snap freeze,verb,Biology,,,,,,,,,,Snap freeze,Snap freezing,Snap froze
+Wash,verb,Molecular Biology,,,,,,,,,,Wash,Washing,Washed
+Agitate,verb,Biology,,,,,,,,,,Agitate,Agitating,Agitated
+Destain,noun,Molecular Biology,,,,,,,,,,N/A,,
+Destain,verb,Molecular Biology,,,,,,,,,,Destain,Destaining,Destained
+Submerge,verb,Biology,,,,,,,,,,Submerge,Submerging,Submerged
+Aggregate,noun,Biology,,,,,,,,,,N/A,,
+Aggregate,verb,Biology,,,,,,,,,,Aggregate,Aggregating,Aggregated
+Regulate,verb,Molecular Biology,,,,Influence gene expression,"GO:0010468 ""regulation of gene expression""",,,,,Regulate,Regulating,Regulated
+Downregulate,verb,Molecular Biology,,,https://en.wikipedia.org/wiki/Downregulation_and_upregulation,Negatively influence gene expression,"GO:0010629 ""negative regulation of gene expression""",,,,,Downregulate,Downregulating,Downregulated
+Upregulate,verb,Molecular Biology,,,https://en.wikipedia.org/wiki/Downregulation_and_upregulation,Positively influence gene expression,"GO:0010628 ""positive regulation of gene expression""",,,,,Upregate,Upregulating,Upregulated
+Drive,verb,Synthetic Biology,,,,,,,,,,Drive,Driving,Drove
+Synthesise,verb,Molecular Biology,,,,Process used to create a nucleotide sequence from free nucleotides,,,,,,Synthesise,Synthesising,Synthesised
+System,noun,Biology,,,,,,,,,,N/A,,
+Pathway,noun,Biology,,,,,,,,,,N/A,,
+Network,noun,Biology,,,,,,,,,,N/A,,
+Downstream,adjective,Molecular Biology,,,,After a promoter; or downstream in a pathway,,,,,,N/A,,
+Upstream,adjective,Molecular Biology,,,,After a promoter; or downstream in a pathway,,,,,,N/A,,
+Part,noun,Synthetic Biology,,,,A reusable genetic feature,sbol3:Component,,,,,N/A,,
+Constitutive promoter,noun,Molecular Biology,,,,A promoter that is always on,SO:0002050,,,,,N/A,,
+Leaky promoter,noun,Molecular Biology,,,,A promoter that is regulated by other factors but always has some level of basal expression,,,,,,N/A,,
+Inducible promoter,noun,Molecular Biology,,,,A promoter is that is regulated by other factors,,,,,,N/A,,
+Inducer,noun,Molecular Biology,,,,A small molecule that turns on a promoter,,,,,,N/A,,
+Transcription factor,noun,Molecular Biology,,,,A protein that regulates a promoter,,,,,,N/A,,
+Orientation,noun,Molecular Biology,,,,The direction of a DNA feature,,,,,,N/A,,
+Backbone,noun,Molecular Biology; Synthetic Biology,"plasmid, vector",,,The plasmid (usually linearised) to which an insert is cloned into,,,,,,N/A,,
+Insert,noun,Molecular Biology; Synthetic Biology,"part, construct, fragment",,,A sequence (fragment) that is to be cloned into a plasmid backbone,,,,,,N/A,,
+Bind,verb,Molecular Biology,,,,Attachment of one molecule to another,,,,,,Bind,Binding,Bound
+Product,noun,Biology,,,,Result of a biological process,,,,,,N/A,,
+Produce,verb,Biology,,,,Result in a biological product,,,,,,Produces,Producing,Produced
+Maintain [a line],verb,Biology,,,,"To keep a living organism line alive. For example, to keep a mice line alive (care for the offspring, genotype them, etc.), to keep a D.melanogaster line alive (remove parents, change the medium...), to keep a tissue culture line alive (change medium, check for cell density...)",,,,,,,,
